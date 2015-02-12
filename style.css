@@ -1,8 +1,8 @@
 html{
-	background-color: white;
 	height: 150%;
 	width: 100%;
 	font-family: Arial;
+	background-color: rgb(53, 131, 195);
 }
 
 #body{
@@ -35,7 +35,7 @@ html{
 
 #container{
 margin-bottom: 10px;
-margin-left: 179px;
+margin-left: 80px;
 margin-right: 10px;
 margin-top: 10px;
 padding-bottom: 10px;
@@ -53,27 +53,47 @@ ul{
 	padding: 5px;
 }
 
+.toppart{
+	float:center;
+	width: 960px;
+	margin-left: 50px;
+}
+
 #consensus{
 	height: 100%;
 	border: 1px solid;
-	width: 400px;
-	padding: 5px;
-	margin: auto;
-	float: center;
+	text-align: center;
+	margin-left: 85px;
+	margin-right: 70px;
+}
+
+#quote{
+	float:right;
+	font: bold;
+	width: 220px;
+	margin-top: 5px;
+	color:white;
 }
 
 #picone{
-	width: 450px;
-	padding: 0px;
+	width: 670px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 60px;
+	border: solid 1px;
+
 }
 
 #caption{
 	font-size: 9px;
 	font-family: Verdana; 
-	width: 900px;
+	width: 800px;
 	float: left;
 	padding: 0px;
+	margin: auto;
+	margin-left: 50px;
 }
+
 h4{
 	position: relative;
 	text-align: center;
@@ -84,20 +104,31 @@ h4{
 	font-family: Verdana; 
 	padding: 0%;
 	float: left;
-}
+	width:940px;
+	height: 100%;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	font-size: 14px;
+	}
 
 #column1{
 	float: left;
-	margin-left: 20%;
+	margin-left: 65px;
 	border: solid 1px;
-	height: 50%;
 	width: 25%;
 }
 
+#columns{
+	float: left;
+}
+
+#image{
+	margin-left: 35px;
+	height: 5px;
+}
+
 #column2{
-	float: right;
-	margin-right:20%; 
+	float: right; 
 	border: solid 1px;
-	height: 50%;
-	width: 25%;
+	width: 35%;
 }
