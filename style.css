@@ -44,7 +44,7 @@ padding-right: 10px;
 padding-top: 10px;
 text-align: center;
 float: center;
-width: 882px;
+width: 100%px;
 border: 2px solid orange;
 }
 
@@ -70,7 +70,7 @@ ul{
 #quote{
 	float:right;
 	font: bold;
-	width: 220px;
+	width: 190px;
 	margin-top: 5px;
 	color:white;
 }
@@ -79,7 +79,7 @@ ul{
 	width: 670px;
 	float: left;
 	margin-top: 10px;
-	margin-left: 60px;
+	margin-left: 90px;
 	border: solid 1px;
 
 }
@@ -91,7 +91,7 @@ ul{
 	float: left;
 	padding: 0px;
 	margin: auto;
-	margin-left: 50px;
+	margin-left: 140px;
 }
 
 h4{
@@ -107,13 +107,13 @@ h4{
 	width:940px;
 	height: 100%;
 	margin-bottom: 50px;
-	margin-left: 50px;
+	margin-left: 140px;
 	font-size: 14px;
 	}
 
 #column1{
 	float: left;
-	margin-left: 65px;
+	margin-left: 130px;
 	border: solid 1px;
 	width: 25%;
 }
